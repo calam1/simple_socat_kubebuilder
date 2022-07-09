@@ -1,0 +1,6 @@
+apiVersion: forward.techsquad.rocks/v1beta1
+kind: Map
+metadata:
+  name: map-sample
+spec:
+  # TODO(user): Add fields here

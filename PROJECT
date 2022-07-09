@@ -1,0 +1,16 @@
+domain: techsquad.rocks
+layout:
+- go.kubebuilder.io/v3
+projectName: techsquad
+repo: techsquad.rocks
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: techsquad.rocks
+  group: forward
+  kind: Map
+  path: techsquad.rocks/api/v1beta1
+  version: v1beta1
+version: "3"
