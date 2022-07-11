@@ -7,7 +7,7 @@ https://techsquad.rocks/blog/cloud_native_applications_with_kubebuilder_and_kind
 > make install
 ```
 
-# great command to deploy an image on the command line
+# great command to deploy an image on the command line only on k8 1.17 or less from what i understand
 ```
 > kubectl run -it --rm --restart=Never alpine --image=alpine sh
 
